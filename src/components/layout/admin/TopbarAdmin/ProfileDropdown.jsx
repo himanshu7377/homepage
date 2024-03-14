@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { Fragment } from "react";
 import { LuHome, LuLogOut, LuNewspaper, LuUser } from "react-icons/lu";
-import { cn } from "@/utils";
-import { avatar1Img } from "@/assets/data";
+import { cn } from "../../../utils";
+import { avatar1Img } from "../../../assets/data";
 
 const profileDropdownItems = [
   {

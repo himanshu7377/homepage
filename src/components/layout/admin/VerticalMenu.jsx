@@ -1,8 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
 import { Fragment, useCallback, useEffect, useState } from "react";
 import { LuChevronDown, LuDot, LuLayoutGrid } from "react-icons/lu";
-import { findAllParent, findMenuItem, getMenuItemFromURL } from "@/helpers";
-import { cn } from "@/utils";
+import { findAllParent, findMenuItem, getMenuItemFromURL } from "../../helpers";
+import { cn } from "../../utils";
 
 const MenuItemWithChildren = ({
   item,

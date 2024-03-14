@@ -5,7 +5,7 @@ import {
   logoDarkImg,
   logoLightImg,
   offerBgOtherImg,
-} from "@/assets/data/images";
+} from "../../../assets/data/images";
 import VerticalMenu from "./VerticalMenu";
 import { getAdminVerticalMenuItems } from "../../helpers";
 
